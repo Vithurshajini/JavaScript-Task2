@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3d3d3db; 
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: 20%;
+    box-sizing: border-box; 
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-left: 640px;
+}
+
+button[type="submit"],button[id="filterButton"] {
+    float: right;
+    margin-top: 10px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 200px;
+    border-color: black;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  pre{
+    text-align: center;
+  }
+
+  #deleteConfirmationModal {
+    display: none; 
+    position: fixed; 
+    top: 50px; 
+    left: 20%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    width: 400px; 
+    padding: 50px;
+    border-radius: 10px;
+    z-index: 999; 
+}
+
+.modal-content {
+    text-align: center;
+}
+
+#confirmDeleteButton,
+#cancelDeleteButton {
+    width:170px;
+    height: 50px;
+    background-color: gray;
+    text-align: center;
+}
+
+#confirmDeleteButton{
+   background-color: red;
+}
+
+#confirmDeleteButton:hover{
+    background-color: darkred;
+}
+
+#cancelDeleteButton{
+    background-color:green;
+}
+
+#cancelDeleteButton:hover{
+    background-color: darkgreen;
+}
+
+#deleteConfirmationModal p {
+    margin: 10px 0; 
+}
+
+#deleteConfirmationModal p:first-child {
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+.modal-header {
+    padding: 10px 20px;
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-footer {
+    padding: 20px;
+    text-align: center;
+}
+
+
+  
